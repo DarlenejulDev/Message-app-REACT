@@ -2,13 +2,18 @@ import React, { Component } from 'react';
 
 class App extends Component {
 
-  render(){
+
+render() {
+    const headerStyle = {
+      color: '#ff0000',
+      textDecoration: 'underline'
+    }
     return (
       <div>
-        Hello World Again!
+        <h2 style={headerStyle}>Hello World Again!</h2>
       </div>
     )
   }
-
 }
+
 export default App;
